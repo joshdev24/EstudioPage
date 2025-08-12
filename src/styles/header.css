@@ -1,0 +1,18 @@
+/* Header */
+.header {
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.header-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}

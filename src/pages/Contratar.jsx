@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import "../styles/contratar.css";
+import Header from '../components/Institucional';
+import Footer from '../components/Footer';
 
 const requisitosPorSociedad = {
 SA : {
@@ -221,7 +223,8 @@ export default function FormularioSociedad() {
 
   return (
     <>
-    
+    <Header />
+   
      <div className="hero-section">
       <h1 className="hero-title-2">
   Completa el formulario <br />
@@ -641,6 +644,8 @@ export default function FormularioSociedad() {
         </>
       )}
     </form>
+
+    <Footer />
     </>
   );
 }
