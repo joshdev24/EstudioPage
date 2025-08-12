@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "../styles/Contratar.css";
+import "../styles/contratar.css";
 
 const requisitosPorSociedad = {
 SA : {
