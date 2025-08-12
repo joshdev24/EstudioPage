@@ -1,0 +1,139 @@
+/* FormularioSociedad.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+form {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #001f3f;
+  border-top: 1px solid #f1f1f1;
+  --tw-shadow: 0 10px 15px -3px rgba(198, 200, 205, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2,
+h3 {
+  margin-top: 1.5rem;
+  color: #000000;
+}
+
+h4 {
+  margin-top: 1.5rem;
+  color: #48494b;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  color: #666;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+  border: 1px solid #c7c8cb;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  color: #000000;
+  transition: all 0.15s ease-in-out;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Efecto al enfocar */
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: #eff6ff;
+  outline: none;
+  border-color: #04497b;
+  box-shadow: 0 0 5px rgba(4, 73, 123, 0.3);
+  transform: scale(1.02);
+}
+
+/* Efecto al pasar el mouse */
+input:hover,
+select:hover,
+textarea:hover {
+  transform: scale(1.02);
+}
+
+
+
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+button[type="button"],
+button[type="submit"] {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #04497b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-weight: bold;
+}
+
+button.btn-eliminar {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #7b0404;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-weight: bold;
+}
+
+.hero-title-2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+button.btn-eliminar:hover {
+  background-color: #a50505;
+}
+
+button:hover {
+  background-color: #065b98;
+}
+
+select:invalid {
+  color: #666;
+}
+
+p {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #444;
+}

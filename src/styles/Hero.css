@@ -1,0 +1,35 @@
+.hero {
+  height: 100vh;
+  background: #072162;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-contratar {
+  padding: 0.75rem 2rem;
+  background-color: white;
+  color: #072162;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.btn-contratar:hover {
+  background-color: #f0f0f0;
+}
